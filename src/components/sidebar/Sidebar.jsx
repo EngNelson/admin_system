@@ -11,12 +11,17 @@ import ExitToAppOutlinedIcon from "@mui/icons-material/ExitToAppOutlined";
 import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import SettingsSystemDaydreamOutlinedIcon from "@mui/icons-material/SettingsSystemDaydreamOutlined";
 import BookmarkBorderOutlinedIcon from "@mui/icons-material/BookmarkBorderOutlined";
+import { Link } from "react-router-dom";
+
+// import {PersonOutlineIcon,LocalShippingIcon } from "@mui/icons-material"
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
-        <span className="logo">NelAdmin</span>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <span className="logo">NelAdmin</span>
+        </Link>
       </div>
       <hr />
       <div className="center">
@@ -27,14 +32,18 @@ const Sidebar = () => {
             <span>Dashboard</span>
           </li>
           <p className="title">LISTS</p>
-          <li>
-            <PersonOutlineIcon className="icon" />
-            <span>Users</span>
-          </li>
-          <li>
-            <ProductionQuantityLimitsIcon className="icon" />
-            <span>Products</span>
-          </li>
+          <Link to="/users" style={{ textDecoration: "none" }}>
+            <li>
+              <PersonOutlineIcon className="icon" />
+              <span>Users</span>
+            </li>
+          </Link>
+          <Link to="/products" style={{ textDecoration: "none" }}>
+            <li>
+              <ProductionQuantityLimitsIcon className="icon" />
+              <span>Products</span>
+            </li>
+          </Link>
           <li>
             <BookmarkBorderOutlinedIcon className="icon" />
             <span>Orders</span>
