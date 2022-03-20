@@ -23,7 +23,7 @@ const Widget = ({ type }) => {
             className="icon"
             style={{
               color: "crimson",
-              backgroundColor: "rgba(255, 0,0,0.2)",
+              backgroundColor: rgba(255, 0, 0, 0.2),
             }}
           />
         ),
@@ -39,7 +39,7 @@ const Widget = ({ type }) => {
             className="icon"
             style={{
               color: "goldenrod",
-              backgroundColor: "rgba(218, 165,32,0.2)",
+              backgroundColor: rgba(218, 165, 32, 0.2),
             }}
           />
         ),
@@ -53,10 +53,7 @@ const Widget = ({ type }) => {
         icon: (
           <MonetizationOnOutlinedIcon
             className="icon"
-            style={{
-              color: "crimson",
-              backgroundColor: "rgba(255, 0,0,0.2)",
-            }}
+            style={{ backgroundColor: rgba(255, 0, 0, 0.2), color: "crimson" }}
           />
         ),
       };
@@ -71,7 +68,7 @@ const Widget = ({ type }) => {
             className="icon"
             style={{
               color: "purple",
-              backgroundColor: "rgba(255, 0,0,0.2)",
+              backgroundColor: rgba(255, 0, 0, 0.2),
             }}
           />
         ),
