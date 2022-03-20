@@ -1,16 +1,16 @@
 import "./sidebar.scss";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
-import ProductionQuantityLimitsIcon from "@mui/icons-material/ProductionQuantityLimits";
+import StoreIcon from "@mui/icons-material/Store";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
-import AssessmentIcon from "@mui/icons-material/Assessment";
+import InsertChartIcon from "@mui/icons-material/InsertChart";
+import CreditCardIcon from "@mui/icons-material/CreditCard";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import ExitToAppOutlinedIcon from "@mui/icons-material/ExitToAppOutlined";
 import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import SettingsSystemDaydreamOutlinedIcon from "@mui/icons-material/SettingsSystemDaydreamOutlined";
-import BookmarkBorderOutlinedIcon from "@mui/icons-material/BookmarkBorderOutlined";
 import { Link } from "react-router-dom";
 import { DarkModeContext } from "../../context/darkModeContext";
 import { useContext } from "react";
@@ -41,12 +41,12 @@ const Sidebar = () => {
           </Link>
           <Link to="/products" style={{ textDecoration: "none" }}>
             <li>
-              <ProductionQuantityLimitsIcon className="icon" />
+              <StoreIcon className="icon" />
               <span>Products</span>
             </li>
           </Link>
           <li>
-            <BookmarkBorderOutlinedIcon className="icon" />
+            <CreditCardIcon className="icon" />
             <span>Orders</span>
           </li>
           <li>
@@ -55,7 +55,7 @@ const Sidebar = () => {
           </li>
           <p className="title">USEFUL</p>
           <li>
-            <AssessmentIcon className="icon" />
+            <InsertChartIcon className="icon" />
             <span>Stats</span>
           </li>
           <li>
