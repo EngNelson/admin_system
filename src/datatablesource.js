@@ -7,17 +7,20 @@ export const userColumns = [
     renderCell: (params) => {
       return (
         <div className="cellWithImg">
-          <img className="cellImg" src={params.row.img} alt="avatar" />{" "}
-          {params.row.username}{" "}
+          <img className="cellImg" src={params.row.img} alt="avatar" />
+          {params.row.username}
         </div>
       );
     },
   },
+];
+[
   {
     field: "email",
     headerName: "Email",
     width: 230,
   },
+
   {
     field: "age",
     headerName: "Age",
@@ -36,55 +39,58 @@ export const userColumns = [
     },
   },
 ];
+
 // temporary data
+
 export const userRows = [
   {
     id: 1,
-    username: "Snow",
-    img: "",
-    email: "2snow@gmail.com",
-    age: 35,
+    uername: "Snow",
+    img: "../../asset/avatar2.jpg",
+    status: "active",
+    email: "snow@gmail.com",
+    age: 25,
   },
   {
     id: 2,
-    username: "Snow",
-    img: "",
-    email: "2snow@gmail.com",
-    age: 35,
+    uername: "Jackson Ndi",
+    ig: "../../asset/avatar4.jpg",
+    eail: "jackson@gmail.com",
+    ae: 45,
   },
   {
     id: 3,
-    username: "Snow",
-    img: "",
-    email: "2snow@gmail.com",
-    age: 35,
+    uername: "Enow White",
+    img: "../../asset/avatar5.jpg",
+    email: "enowwhite@gmail.com",
+    age: 30,
   },
   {
     id: 4,
-    username: "Snow",
-    img: "",
-    email: "2snow@gmail.com",
-    age: 35,
+    uername: "Anderson Millo",
+    img: "../../asset/avatar7.jpg",
+    email: "andersonmillo@gmail.com",
+    ae: 35,
   },
   {
     id: 5,
-    username: "Snow",
-    img: "",
-    email: "2snow@gmail.com",
-    age: 35,
+    username: "Michael Spark",
+    age: "../../asset/avatar3.jpg",
+    email: "sparkmichael@gmail.com",
+    age: 28,
   },
   {
     id: 6,
-    username: "Snow",
-    img: "",
-    email: "2snow@gmail.com",
-    age: 35,
+    username: "Golden Walman",
+    img: "../../asset/avatar5.jpg",
+    mail: "goldenwalman@gmail.com",
+    age: 50,
   },
   {
     id: 7,
-    username: "Snow",
-    img: "",
-    email: "2snow@gmail.com",
-    age: 35,
+    username: "Lamson Arrey",
+    age: "../../asset/course11.jpg",
+    email: "lamsonarrey@gmail.com",
+    age: 25,
   },
 ];

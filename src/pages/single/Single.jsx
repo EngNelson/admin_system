@@ -15,7 +15,11 @@ const Single = () => {
             <div className="editButton">Edit</div>
             <h1 className="title">Information</h1>
             <div className="item">
-              <img src="" alt="avatar" className="itemImg" />
+              <img
+                src="../../components/assets/avatar2.jpg"
+                alt="avatar"
+                className="itemImg"
+              />
               <div className="details">
                 <h1 className="itemTitle">Nassah Kuma</h1>
                 <div className="detailItem">
