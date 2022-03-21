@@ -13,8 +13,6 @@ export const userColumns = [
       );
     },
   },
-];
-[
   {
     field: "email",
     headerName: "Email",

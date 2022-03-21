@@ -17,7 +17,10 @@ const New = ({ inputs, title }) => {
         </div>
         <div className="bottom">
           <div className="left">
-            <img src={file ? URL.createObjectURL(file) : ""} alt="avatar" />
+            <img
+              src={file ? URL.createObjectURL(file) : "http://"}
+              alt="avatar"
+            />
           </div>
           <div className="right">
             <form>

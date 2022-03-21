@@ -8,7 +8,7 @@ export const userInputs = [{
         id: 2,
         label: "Name and surname",
         type: "text",
-        placeholder: "John Doe",
+        placeholder: "Bossly Fanwi",
     },
     {
         id: 3,
