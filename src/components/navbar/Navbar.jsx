@@ -8,6 +8,7 @@ import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import { DarkModeContext } from "../../context/darkModeContext";
 import { useContext } from "react";
+import avatar from "../assets/avatar1.jpg";
 
 const Navbar = () => {
   const { dispatch } = useContext(DarkModeContext);
@@ -44,7 +45,7 @@ const Navbar = () => {
             <ListOutlinedIcon className="icon" />
           </div>
           <div className="item">
-            <img src="../assets/course1.jpg" alt="" className="avatar" />
+            <img src={avatar} alt="" className="avatar" />
           </div>
         </div>
       </div>
