@@ -9,8 +9,8 @@ import course18 from "../src/components/assets/course18.jpg";
 export const userColumns = [
   { field: "id", headerName: "ID", width: 70 },
   {
-    field: "user",
-    headerName: "User",
+    field: "username",
+    headerName: "UserName",
     with: 230,
     renderCell: (params) => {
       return (
@@ -20,6 +20,11 @@ export const userColumns = [
         </div>
       );
     },
+  },
+  {
+    field: "username",
+    headerName: "UserName",
+    width: 230,
   },
   {
     field: "email",
@@ -60,7 +65,7 @@ export const userRows = [
   {
     id: 2,
     username: "Jackson Ndi",
-    status: "active",
+    status: "pending",
     img: course11,
     email: "jackson@gmail.com",
     age: 45,
@@ -68,7 +73,7 @@ export const userRows = [
   {
     id: 3,
     username: "Enow White",
-    status: "active",
+    status: "passive",
     img: course10,
     email: "enowwhite@gmail.com",
     age: 30,
@@ -84,7 +89,7 @@ export const userRows = [
   {
     id: 5,
     username: "Michael Spark",
-    status: "active",
+    status: "passive",
     img: course13,
     email: "sparkmichael@gmail.com",
     age: 28,
@@ -92,7 +97,7 @@ export const userRows = [
   {
     id: 6,
     username: "Golden Walman",
-    status: "active",
+    status: "pending",
     img: course17,
     email: "goldenwalman@gmail.com",
     age: 50,
