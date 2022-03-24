@@ -3,7 +3,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import Chart from "../../components/chart/Chart";
 import List from "../../components/table/Table";
-import camera from "../../components/assets/camera.png";
+import assets from "../../components/assets/tm3.jpg";
 const Single = () => {
   return (
     <div className="single">
@@ -15,7 +15,7 @@ const Single = () => {
             <div className="editButton">Edit</div>
             <h1 className="title">Information</h1>
             <div className="item">
-              <img src={camera} alt="avatar" className="itemImg" />
+              <img src={assets} alt="avatar" className="itemImg" />
               <div className="details">
                 <h1 className="itemTitle">Nassah Kuma</h1>
                 <div className="detailItem">

@@ -3,6 +3,7 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import DriveFolderUploadOutlinedIcon from "@mui/icons-material/DriveFolderUploadOutlined";
 import { useState } from "react";
+import assets from "../../components/assets/camera.png";
 
 const New = ({ inputs, title }) => {
   const [file, setFile] = useState("");
@@ -17,10 +18,7 @@ const New = ({ inputs, title }) => {
         </div>
         <div className="bottom">
           <div className="left">
-            <img
-              src={file ? URL.createObjectURL(file) : "http://"}
-              alt="avatar"
-            />
+            <img src={file ? URL.createObjectURL(file) : assets} alt="avatar" />
           </div>
           <div className="right">
             <form>
