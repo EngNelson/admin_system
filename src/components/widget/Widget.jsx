@@ -9,8 +9,8 @@ const Widget = ({ type }) => {
   let data;
 
   // temporary
-  const amount = 100;
-  const diff = 20;
+  const amount = 300;
+  const diff = 30;
 
   switch (type) {
     case "user":
@@ -54,8 +54,8 @@ const Widget = ({ type }) => {
           <MonetizationOnOutlinedIcon
             className="icon"
             style={{
-              backgroundColor: "rgba(255, 0, 0, 0.2)",
-              color: "crimson",
+              backgroundColor: "rgba(0, 128, 0, 0.2)",
+              color: "green",
             }}
           />
         ),
@@ -71,7 +71,7 @@ const Widget = ({ type }) => {
             className="icon"
             style={{
               color: "purple",
-              backgroundColor: "rgba(255, 0, 0, 0.2)",
+              backgroundColor: "rgba(128, 0, 128, 0.2)",
             }}
           />
         ),

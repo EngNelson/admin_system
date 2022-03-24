@@ -5,21 +5,25 @@
     align-items: center;
     font-size: 14px;
     color: #555;
+    cursor: pointer;
     .wrapper {
         width: 100%;
         padding: 20px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        cursor: pointer;
         .search {
             display: flex;
             align-items: center;
             border: 0.5px solid lightgray;
             padding: 3px;
+            cursor: pointer;
             input {
                 border: none;
                 outline: none;
                 background: transparent;
+                cursor: pointer;
                 &::placeholder {
                     font-size: 12px;
                 }

@@ -6,13 +6,18 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
+import avatar from "../assets/avatar1.jpg";
+import avatar2 from "../assets/avatar2.jpg";
+import avatar3 from "../assets/avatar3.jpg";
+import avatar4 from "../assets/avatar4.jpg";
+import avatar5 from "../assets/avatar5.jpg";
 
 const List = () => {
   const rows = [
     {
       id: 1170621,
       product: " Acer Nitro 5",
-      img: "../assets/course2.jpg",
+      img: avatar,
       customer: "Johnson Cow",
       date: "4 May",
       amount: 7430,
@@ -22,7 +27,7 @@ const List = () => {
     {
       id: 5147630,
       product: " Playstation 5",
-      img: "../assets/course3.jpg",
+      img: avatar2,
       customer: "Larry Spark",
       date: "2 Febuary",
       amount: 2000,
@@ -32,8 +37,8 @@ const List = () => {
     {
       id: 8407632,
       product: " ASUS ROG Strix",
-      img: "../assets/course11.jpg",
-      customer: "Harold Carol",
+      img: avatar3,
+      customer: "Smith Noman",
       date: "4 June",
       amount: 6000,
       method: "Online Payment",
@@ -42,7 +47,7 @@ const List = () => {
     {
       id: 2447630,
       product: " Play Bag",
-      img: "../assets/course14.svg",
+      img: avatar4,
       customer: "Scarlet White",
       date: "20 Jenuary",
       amount: 12000,
@@ -52,7 +57,7 @@ const List = () => {
     {
       id: 7007630,
       product: " LapTops and Phones",
-      img: "../assets/course8.svg",
+      img: avatar5,
       customer: "Nassah Kuma",
       date: "13 April",
       amount: 1000,
@@ -81,7 +86,7 @@ const List = () => {
               <TableCell className="tableCell">{row.id}</TableCell>
               <TableCell className="tableCell">
                 <div className="cellWrapper">
-                  <img src={row.img} alt="image" className="image" />
+                  <img src={row.img} alt="" className="image" />
                   {row.product}
                 </div>
               </TableCell>
