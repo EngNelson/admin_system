@@ -1,3 +1,11 @@
+import course from "../src/components/assets/course1.jpg";
+import course11 from "../src/components/assets/course11.jpg";
+import course10 from "../src/components/assets/course10.jpg";
+import course15 from "../src/components/assets/course15.jpg";
+import course13 from "../src/components/assets/course13.jpg";
+import course17 from "../src/components/assets/course17.jpg";
+import course18 from "../src/components/assets/course18.jpg";
+
 export const userColumns = [
   { field: "id", headerName: "ID", width: 70 },
   {
@@ -43,52 +51,58 @@ export const userColumns = [
 export const userRows = [
   {
     id: 1,
-    uername: "Snow",
-    img: "../../asset/avatar2.jpg",
+    username: "Snow Promise",
+    img: course,
     status: "active",
     email: "snow@gmail.com",
     age: 25,
   },
   {
     id: 2,
-    uername: "Jackson Ndi",
-    ig: "../../asset/avatar4.jpg",
-    eail: "jackson@gmail.com",
-    ae: 45,
+    username: "Jackson Ndi",
+    status: "active",
+    img: course11,
+    email: "jackson@gmail.com",
+    age: 45,
   },
   {
     id: 3,
-    uername: "Enow White",
-    img: "../../asset/avatar5.jpg",
+    username: "Enow White",
+    status: "active",
+    img: course10,
     email: "enowwhite@gmail.com",
     age: 30,
   },
   {
     id: 4,
-    uername: "Anderson Millo",
-    img: "../../asset/avatar7.jpg",
+    username: "Anderson Millo",
+    status: "active",
+    img: course15,
     email: "andersonmillo@gmail.com",
-    ae: 35,
+    age: 35,
   },
   {
     id: 5,
     username: "Michael Spark",
-    age: "../../asset/avatar3.jpg",
+    status: "active",
+    img: course13,
     email: "sparkmichael@gmail.com",
     age: 28,
   },
   {
     id: 6,
     username: "Golden Walman",
-    img: "../../asset/avatar5.jpg",
-    mail: "goldenwalman@gmail.com",
+    status: "active",
+    img: course17,
+    email: "goldenwalman@gmail.com",
     age: 50,
   },
   {
     id: 7,
     username: "Lamson Arrey",
-    age: "../../asset/course11.jpg",
+    status: "active",
+    img: course18,
     email: "lamsonarrey@gmail.com",
-    age: 25,
+    age: 30,
   },
 ];
