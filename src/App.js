@@ -26,7 +26,6 @@ function App() {
                 path="new"
                 element={<New inputs={userInputs} title="Add New User" />}
               />
-              {/* </Route> */}
             </Route>
 
             <Route path="products">
